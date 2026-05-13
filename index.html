@@ -753,25 +753,25 @@
     const products = [
       {
         name: "درع تيك توك",
-        price: 50,
+        price: 45,
         desc: "درع مخصص مع اسمك، مناسب كهدية جميلة.",
         img: "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=600&q=80"
       },
       {
         name: "درع يوتيوب",
-        price: 40,
+        price: 45,
         desc: "تصميم مستوحى من دروع اليوتيوب مع اسم مخصص.",
         img: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=600&q=80"
       },
       {
         name: "قاعدة ديسكات 10",
-        price: 55,
+        price: 35,
         desc: "قاعدة مرتبة لحفظ الديسكات بشكل جميل.",
         img: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80"
       },
       {
         name: "ستاند يد PS5",
-        price: 45,
+        price: 20,
         desc: "ستاند عملي ومميز ليد التحكم.",
         img: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=600&q=80"
       },
@@ -792,12 +792,12 @@
     const customData = {
       tiktok: {
         desc: "درع تيك توك مخصص",
-        price: 50,
+        price: 45,
         img: "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=600&q=80"
       },
       youtube: {
         desc: "درع يوتيوب مخصص",
-        price: 40,
+        price: 45,
         img: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=600&q=80"
       },
       disc: {
@@ -807,7 +807,7 @@
       },
       ps5: {
         desc: "ستاند يد PS5",
-        price: 45,
+        price: 20,
         img: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=600&q=80"
       },
       keychain: {
@@ -872,7 +872,7 @@
       let desc = selected.desc;
       document.getElementById("discSizeBox").className = type === "disc" ? "" : "hidden";
       if (type === "disc") {
-        const discPrices = { 4: 25, 6: 35, 10: 55 };
+        const discPrices = { 4: 20, 6: 25, 10: 35 };
         price = discPrices[discCount];
         desc = `قاعدة ديسكات حجم ${discCount}`;
       }
